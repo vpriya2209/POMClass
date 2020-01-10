@@ -10,7 +10,7 @@ public class HotelBase {
 
 	public static void LaunchBrowser() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\DELL\\eclipse-workspace\\091819\\POMPratice\\Driver\\chromedriver.exe");
+				"C:\\Users\\Vishnu Priya\\eclipse-vishnupriya\\POMClass\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 

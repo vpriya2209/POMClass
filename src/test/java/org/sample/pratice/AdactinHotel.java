@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 public class AdactinHotel {
 	public static void main(String[] args) throws Throwable {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\DELL\\eclipse-workspace\\091819\\POMPratice\\Driver\\chromedriver.exe");
+				"C:\\Users\\Vishnu Priya\\eclipse-vishnupriya\\POMClass\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://adactin.com/HotelApp/");
 		WebElement userName = driver.findElement(By.xpath("//input[@id='username']"));
@@ -72,6 +72,7 @@ public class AdactinHotel {
 		WebElement order = driver.findElement(By.xpath("//input[@id='order_no']"));
 		String text = order.getText();
 		System.out.println(text);
+		System.out.println("done");
 
 	}
 }
